@@ -1,9 +1,11 @@
 function Services() {
-    return(
-        <>
-        <h1>Services are here </h1>
-        </>
-    )
-    
+    return (
+        <div className="flex items-center justify-center min-h-screen bg-gray-100">
+            <h1 className="text-3xl font-bold text-gray-800">
+                Services are here
+            </h1>
+        </div>
+    );
 }
-export default Services; 
+
+export default Services;
